@@ -45,12 +45,12 @@ public class FightGameRunner
 		{
 			deck.add(new Fight("Andrew", 100, 20, "Super-Slam", "Get Rekt", "You missed the slam", 33, 25, "Extreme Punch", "Ka-Pow!", "You miss and hit the wall instead", 33, 40, "Super Kick", "You didn't skip a leg day! LEGenDArY!", "Maybe next time spend a little more time on those legs", 50 , 20, "Karate Chop", "Nice!", "You have missed", 33, 100, "EPIC ATTACK", 50, false, 100));
 			deck.add(new Fight("Trump", 1000, 40, "Build a Wall", "DEPORTED!", "The Democrats will not let you", 33, 65, "RACISM", "Now everyone hates your opponent", "Backfire", 33, 80, "Piss off everyone", "That somehow injured your opponent?", "Backfire", 50 , 20, "Karate Chop", "Nice!", "You have missed", 33, 1000, "DESTROY HILARY", 70, false, 1000));
-			deck.add(new Fight("Jack", 40, 5, "Wimpy Punch", "That is kinda good... I guess", "Your wimpy punch has missed", 33, 4, "Wimpy Kick", "Wow! I'm kinda suprised you hit your opponent", "Unsurprisingly you have missed", 33, 4, "Unimpressive Slam", "Unimpressive", "Even more unimpressive", 33 , 2, "Karate Chop", "That was amusingly bad!", "HAHAHAHA", 33, 30, "Dank Meme", 15, true, 40));
+			deck.add(new Fight("Jack", 1000, 50, "Wimpy Punch", "That is kinda good... I guess", "Your wimpy punch has missed", 33, 4, "Wimpy Kick", "Wow! I'm kinda suprised you hit your opponent", "Unsurprisingly you have missed", 33, 4, "Unimpressive Slam", "Unimpressive", "Even more unimpressive", 33 , 2, "Karate Chop", "That was amusingly bad!", "HAHAHAHA", 33, 30, "Dank Meme", 15, true, 40));
 			deck.add(new Fight("Chris", 40, 5, "Wimpy Punch", "That is kinda good... I guess", "Your wimpy punch has missed", 33, 4, "Wimpy Kick", "Wow! I'm kinda suprised you hit your opponent", "Unsurprisingly you have missed", 33, 4, "Unimpressive Slam", "Unimpressive", "Even more unimpressive", 33 , 2, "Karate Chop", "That was amusingly bad!", "HAHAHAHA", 33, 30, "Dank Meme", 15, true, 40));
 			deck.add(new Fight("Michael", 30, 3, "Wimpy Punch", "That is kinda good... I guess", "Your wimpy punch has missed", 33, 2, "Wimpy Kick", "Wow! I'm kinda suprised you hit your opponent", "Unsurprisingly you have missed", 33, 2, "Unimpressive Slam", "Unimpressive", "Even more unimpressive", 33 , 1, "Karate Chop", "That was amusingly bad!", "HAHAHAHA", 33, 30, "Dank Meme", 15, true, 30));
-			deck.add(new Fight("Sassy Sarah", 9999999, 1000, "Super-Slap", "POW!", "Gosh Dang it", 10, 25, "Extreme Punch", "Ka-Pow!", "You miss and hit the wall instead", 33, 40, "Super Kick", "You didn't skip a leg day! LEGenDArY!", "Maybe next time spend a little more time on those legs", 50 , 20, "Karate Chop", "Nice!", "You have missed", 33, 100, "EPIC ATTACK", 50, false, 9999999));
-			deck.add(new Fight("Andrew", 100, 20, "Super-Slam", "Get Rekt", "You missed the slam", 33, 25, "Extreme Punch", "Ka-Pow!", "You miss and hit the wall instead", 33, 40, "Super Kick", "You didn't skip a leg day! LEGenDArY!", "Maybe next time spend a little more time on those legs", 50 , 20, "Karate Chop", "Nice!", "You have missed", 33, 100, "EPIC ATTACK", 50, false, 100));
-	}
+			deck.add(new Fight("Sassy Sarah", 9, 1, "Super-Slap", "POW!", "Gosh Dang it", 10, 25, "Extreme Punch", "Ka-Pow!", "You miss and hit the wall instead", 33, 40, "Super Kick", "You didn't skip a leg day! LEGenDArY!", "Maybe next time spend a little more time on those legs", 50 , 20, "Karate Chop", "Nice!", "You have missed", 33, 100, "EPIC ATTACK", 50, false, 9999999));
+			deck.add(new Fight("Chancellor Palpatine", 200, 20, "Execute Order 66", "Order 66 has been executed", "You were stopped by Yoda before it could happen", 34, 25, "Kill him now", "DO IT", "DONT DO IT", 33, 40, "Lightning", "UNLIMITED POWER", "It's not late enough in the movie for you to be using that", 50 , 24, "Convince Anakin to kill all the younglings", "do it", "it's not late enough in the movie for you to use that", 33, 1000, "*STAR WARS THEME INTENSIFIES*", 50, false, 200));
+		}
 		public static void discovered()
 		{
 			System.out.println("DISCOVERED FIGHTERS ARE:");
@@ -217,7 +217,7 @@ public class FightGameRunner
 	//					}
 	//				else if (deck.get(secondChosenName).getSpecialPercentage() > addPlayerTwoSpecial)
 	//					{
-	//						System.out.println("(5) " + (int)
+	//						System.out.println("(5) " + (int));
 	//								(addPlayerOneSpecial / deck.get(firstChosenName).getSpecialPercentage() * 100) + "%");
 	//					}
 					choice = firstPlayerChoice.nextInt();
